@@ -89,6 +89,7 @@
     select('body').classList.toggle('mobile-nav-active')
     this.classList.toggle('bi-list')
     this.classList.toggle('bi-x')
+    select('body').classList.toggle('name')
   })
 
   /**
